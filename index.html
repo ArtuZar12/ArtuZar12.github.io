@@ -1,0 +1,82 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bienvenido a mi portafolio en línea. Aquí puedes encontrar mis prácticas y proyectos.">
+    <meta name="keywords" content="portafolio, prácticas, proyectos">
+    <meta name="author" content="Tu Nombre">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+        }
+        iframe {
+            border: 1px solid #ddd;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi Portafolio</h1>
+    <iframe src="" name="iframe_b" title="contenido"></iframe>
+    <ul>
+        <li>
+            <button onclick="loadContent('https://lc.cx/j_mac7')">Práctica 1</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/9gBYUu')">Práctica 2</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/8Y-Pra')">Práctica 3</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/g_fz1E')">Práctica 4</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/rKAvhw')">Práctica 5</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/n44z4C')">Práctica 6</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/lO0e5h')">Práctica 7</button>
+        </li>
+        <li>
+            <button onclick="loadContent('https://lc.cx/XTrMr4')">Reto 1</button>
+        </li>
+        <li>
+            <p><button><a href="https://portafoliolarz.000webhostapp.com/Sitios.html">Mis otros Sitios</p></button>
+        </li>
+    </ul>
+
+    <script>
+        function loadContent(url) {
+            document.getElementsByName('iframe_b')[0].src = url;
+        }
+    </script>
+</body>
+</html>
